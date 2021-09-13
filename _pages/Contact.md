@@ -2,6 +2,7 @@
 layout: home
 title: "Contact"
 permalink: /contact/
+author_profile: true
 header:
   overlay_image: "/assets/background.jpg"
   overlay_filter: 0.3 # same as adding an opacity of 0.3 to a black background
