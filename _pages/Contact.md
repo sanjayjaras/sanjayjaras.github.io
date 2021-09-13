@@ -21,7 +21,7 @@ header:
   </li>
   <li>
     <div class="text">
-      <div class="name"><a href="https://www.linkedin.com/in/sanjayjaras/" rel="nofollow">LinkedIn</a></div>
+      <div class="name"><a href="https://www.linkedin.com/in/sanjay-jaras/" rel="nofollow">LinkedIn</a></div>
       <div class="description">Connect with me and see what else I've been up to</div>
     </div>
   </li>
