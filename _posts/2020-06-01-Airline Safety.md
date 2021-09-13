@@ -1,4 +1,4 @@
-<img src="/Projects/Airline Safety/assets/blog_1.png" alt="header"/>
+<img src="assets/blog_1.png" alt="header"/>
 
 
 # Tough time for the airline industry
