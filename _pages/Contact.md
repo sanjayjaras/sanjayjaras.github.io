@@ -1,4 +1,5 @@
 ---
+layout: posts
 title: "Contact"
 permalink: /contact/
 header:
@@ -30,3 +31,5 @@ header:
     </div>
   </li>
 </ul>
+
+
