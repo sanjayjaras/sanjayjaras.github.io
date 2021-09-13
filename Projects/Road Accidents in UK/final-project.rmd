@@ -1,0 +1,211 @@
+---
+title: "Final Project: Road Accidents in U.K."
+author: Sanjay Jaras
+date: 02/12/2020
+output:
+#  html_document:
+#    toc: true
+#    toc_depth: 5
+ pdf_document:
+    toc: true
+    toc_depth: 5
+---
+
+```{r setup, include=FALSE}
+library("broom")
+library("ggplot2")
+library("corrplot")
+library("fastDummies")
+library("caret")
+library("dplyr")
+library("ggmap")
+#setwd("/home/sanjay/Desktop/PersonalGitRepo/M.S./Stats/Stats/Final-Project")
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Section 1 – Week 9
+* <h3><p style="color:red">Introduction</p></h3>
+ <p style="color:blue"> Accidents data can be used for numerous applications such as real-time accident prediction, studying accident hotspot locations, casualty analysis and extracting cause and effect rules to predict accidents, and studying the impact of vehicle age, road conditions, speed limits, environmental stimuli and road conditions on accident occurrence. This dataset contains the data of road accidents happened in U.K. within the time frame of 2010-2014. The data is very extensive, so it can give many insights on accidents. It contains location information, vehicle information, weather information, driver information, time of accidents etc.</p>
+* <h3><p style="color:red">Research questions</p></h3>
+    1. <p style="color:blue">What are the factors those are more correlated to severity of accidents?</p>
+    2. <p style="color:blue">Is vehicle power something to do with accidents?</p>
+    3. <p style="color:blue">Is a particular day of time, when accidents happens more?</p>
+    4. <p style="color:blue">Is number of accidents vary by road types?</p>
+    5. <p style="color:blue">Is accidents increase in winter season ?</p>
+
+* <h3><p style="color:red">Approach</p></h3>
+<p style="color:blue"> If required the data will be normalized and cleaned. If null values are present in data, I need to take care of them by either removing those reocrds or using mean value from that column. After cleaning the data, I will analyze data to try answering research questions. While analyzing I will try to use graphs to support/better understand the data.</p>
+
+* ### How your approach addresses (fully or partially) the problem.
+* <h3><p style="color:red">Data</p></h3>
+<h5><p style="color:blue">Source Link:</p></h5>
+<p style="color:blue">https://www.kaggle.com/stefanoleone992/adm-project-road-accidents-in-uk
+<h5><p style="color:blue">Columns in the dataset:</p></h5>
+    1. <p style="color:blue">Accident_Index: Accident index</p>
+    2. <p style="color:blue">Latitude: Accident latitude</p>
+    3. <p style="color:blue">Longitude: Accident longitude</p>
+    4. <p style="color:blue">Region: Accident region</p>
+    5. <p style="color:blue">Urban_or_Rural_Area: Accident area (rural or urban)</p>
+    6. <p style="color:blue">X1st_Road_Class: Accident road class</p>
+    7. <p style="color:blue">Driver_IMD_Decile: Road IMD Decile</p>
+    8. <p style="color:blue">Speed_limit: Road speed </p>
+    9. <p style="color:blue">Road_Type: Road type</p>
+    10. <p style="color:blue">Road_Surface_Conditions: Road surface condition</p>
+    11. <p style="color:blue">Weather: Weather</p>
+    12. <p style="color:blue">High_Wind: High wind</p>
+    13. <p style="color:blue">Lights: Road lights</p>
+    14. <p style="color:blue">Datetime: Accident datetime</p>
+    15. <p style="color:blue">Year: Accident year</p>
+    16. <p style="color:blue">Season: Accident season</p>
+    17. <p style="color:blue">Month_of_Year: Accident month</p>
+    18. <p style="color:blue">Day_of_Month: Accident day of month</p>
+    19. <p style="color:blue">Day_of_Week: Accident day of week</p>
+    20. <p style="color:blue">Hour_of_Day: Accident hour of day</p>
+    21. <p style="color:blue">Number_of_Vehicles: Accident number of vehicles</p>
+    22. <p style="color:blue">Age_of_Driver: Driver age</p>
+    23. <p style="color:blue">Age_of_Vehicle: Vehicle age</p>
+    24. <p style="color:blue">Junction_Detail: Accident junction detail</p>
+    25. <p style="color:blue">Junction_Location: Accident junction location</p>
+    26. <p style="color:blue">X1st_Point_of_Impact: Vehicle first point of impact</p>
+    27. <p style="color:blue">Driver_Journey_Purpose: Driver journey purpose</p>
+    28. <p style="color:blue">Engine_CC: Vehicle engine power (in CC)</p>
+    29. <p style="color:blue">Propulsion_Code: Vehicle propulsion code</p>
+    30. <p style="color:blue">Vehicle_Make: Vehicle make</p>
+    31. <p style="color:blue">Vehicle_Category: Vehicle category</p>
+    32. <p style="color:blue">Vehicle_Manoeuvre: Vehicle manoeuvre</p>
+    33. <p style="color:blue">Accident_Severity: Accident severity</p>
+<p style="color:blue">This data is from 2010 through 2014. The dataset is very extensive with location information, vehicle information, weather information, driver information, time of accidents.</p>
+
+
+* <h3><p style="color:red">Required Packages</p></h3>
+<p style="color:blue">I will be using below packages for my analysis: ggplot2, car, dplyr, tidyr, broom, corrplot, fastDummies, caret</p>
+
+* <h3><p style="color:red">Plots and Table Needs</p></h3>
+<p style="color:blue">I will be using scatter plots, time-series plot  and histograms to analyze and visualize the data patterns.</p>
+
+* <h3><p style="color:red">Questions for future steps.</p></h3>
+<p style="color:blue">The dataset is having lot of information, currently I am not sure if I can create a plot with map of all accidents. It can help us to find out if there is one particular region where accidents happened most.</p>
+
+# Section 2 – Week 10
+* ### How to import my data ?
+<h5><p style="color:blue">Load dataset into data frame</p></h5>
+<p style="color:blue"> load [adm-project-road-accidents-in-uk.csv](https://www.kaggle.com/stefanoleone992/adm-project-road-accidents-in-uk/download) data into data frame </p>
+
+```{r load_data}
+df <- read.csv("adm-project-road-accidents-in-uk.csv")
+str(df)
+```
+* ### How and why to clean data?
+<p style="color:blue"> Data cleansing: In this process we go through all the data and either remove or perform_iteration the information that is incorrect, duplicate or incomplete. Data cleansing is important because it will lead wrong conclusions, decisions and wrong analysis. Many a times data cannot be used as it is and needs preparation in a way so that it can be used. Data cleansing also involves filtering of irrelavant data<br/>
+We have two options to correct or add the missing incomplete data in numerical data, either remove the row or put mean value of that column. </p>
+
+Check for NA values available in data
+
+```{r check_na}
+any(is.na(df))
+```
+<p style="color:blue"> In this dataset, no records with NA's are available, otherwise we would have to replace them by mean value or remove those rows as mentioned above.</p>
+
+<p style="color:blue">Data is normalized: e.g. hours of day data is converted to 0 to 1 range ny using Min-Max normalization. </br> Driver age is transformed to from range of 1-10 by using Unit vector normalization.</br>Regression and neural networks are insensitive to standardization. Advantages of standardization are as follows.
+<ol style="color:blue">
+    <li>It improves the numerical stability of model</li>
+    <li>It may speed up the training process</li>
+    <li>It gives equal considerations for each feature.</li>
+</ol>
+  </br>All non numeric features are converted to factors.
+
+```{r data_scaling1}
+summary(df$Hour_of_Day)
+summary(df$Age_of_Driver)
+```
+<p style="color:blue">Each factor column can be further split into mulitple columns with each factor type to make dataset tidy. To transform this we can use dummy_cols function from fastDummies package.</p>
+
+<h5><p style="color:blue">Split factor feature to multiple column for analysis</p></h5>
+<p style="color:blue">Create dummy variables with binary values for features with Factors and characters types</p>
+
+```{r data_dummy}
+df_with_dummy <- dummy_cols(df, select_columns = c("Accident_Severity", "Region", "Urban_or_Rural_Area", "X1st_Road_Class", "Road_Type", "Road_Surface_Conditions", "Weather", "High_Wind", "Lights", "Junction_Detail", "Junction_Location", "X1st_Point_of_Impact", "Driver_Journey_Purpose", "Propulsion_Code", "Vehicle_Make", "Vehicle_Category", "Vehicle_Manoeuvre"))
+```
+
+<h5><p style="color:blue">Correlation plot for numeric features</p></h5>
+
+```{r corr_num}
+num_df <- select_if(df, is.numeric)
+num_df <- num_df[, !(names(num_df) %in% c("Latitude", "Longitude"))]
+num_df$Fatal_Serious_Accident <- df_with_dummy$Accident_Severity_Fatal_Serious
+num_df.cor <- cor(num_df)
+corrplot(num_df.cor)
+```
+
+<h5><p style="color:blue">Correlation plot for features with factors.</p></h5>
+
+```{r factors_add}
+cols_from_num_df <- names(num_df)
+cols_to_drop <- c(cols_from_num_df, "Datetime", "Accident_Severity", "Region", "Accident_Index", "Latitude", "Longitude", "Urban_or_Rural_Area", "X1st_Road_Class", "Road_Type", "Road_Surface_Conditions", "Weather",
+                  "High_Wind", "High_Wind_No", "Lights", "Junction_Detail", "Junction_Location", "X1st_Point_of_Impact", "Driver_Journey_Purpose", "Propulsion_Code", "Propulsion_Code_Petrol", "Vehicle_Make", "Vehicle_Category", "Vehicle_Manoeuvre")
+df_combined <- cbind(num_df, df_with_dummy[!names(df_with_dummy) %in% cols_to_drop])
+cols_for_corr <- c("Fatal_Serious_Accident", "Vehicle_Category_Bus/minibus", "Vehicle_Category_Car", "Vehicle_Category_Motorcycle", "Vehicle_Category_Other", "Vehicle_Category_Taxi", "Vehicle_Category_Van")
+corrplot(cor(df_combined[cols_for_corr]), method = "circle")
+```
+
+Cleaned Data for prediction model.
+Remove columns those should not be part of prediction model
+
+```{r df_prediction}
+df_prediction <- as_tibble(df[, !(names(df) %in% c("Accident_Index", "Latitude", 'Longitude', 'Datetime'))])
+ggplot(df_prediction, aes(Accident_Severity, fill = Vehicle_Make)) + geom_histogram(stat = "count", position = "dodge", binwidth = 10)
+```
+
+* ### What does the final data set look like?
+<h5><p style="color:blue">Dataset for Exploratory analysis</p></h5>
+```{r data_head_cleaned_eda}
+str(df_combined)
+```
+<h5><p style="color:blue">Dataset for Prediction model</p></h5>
+```{r data_head_cleaned_model}
+str(df_prediction)
+```
+
+* ### Questions for future steps.
+1. How to create plot with geo-spatial coordinates?
+2. I am planning to use Nearest Neighbour algorithm to create prediction model, find out if is it different model that can give better accuracy?
+
+# Section 3 – Week 11
+* ### What information is not self-evident?
+1. The Season feature is numeric column however the mapping is not evident.
+* ### What are different ways you could look at this data?
+
+```{r weather_plot}
+ggplot(df_prediction, aes(Weather, fill = Accident_Severity)) + geom_histogram(stat = "count", position = "dodge", binwidth = 10)
+```
+```{r make_plot}
+ggplot(df_prediction, aes(Vehicle_Make, fill = Accident_Severity)) + geom_histogram(stat = "count", position = "dodge", binwidth = 10)
+```
+* ### How do you plan to slice and dice the data?
+* ### How could you summarize your data to answer key questions?
+* ### What types of plots and tables will help you to illustrate the findings to your questions?
+* ### Do you plan on incorporating any machine learning techniques to answer your research questions? Explain.
+* ### Questions for future steps.
+# Section 4 – Week 12
+* ### A story / narrative that emerged from your data. Follow this structure.
+* ### Introduction.
+* ### The problem statement you addressed. 
+* ### How you addressed this problem statement
+* ### Analysis.
+* ### Implications. 
+* ### Limitations.
+* ### Concluding Remarks
+
+```{r ggmap_registration, include=FALSE}
+ggmap::register_google(key = "AIzaSyAIQvPibya7SNnIuZ3zR6l_LXGHyPWtvIw")
+```
+### Show Accidents by Location
+```{r ggmap_showmap}
+p <- ggmap(get_googlemap(center = c(lon = -0.178376, lat = 51.49204),
+                         zoom = 11, scale = 2,
+                         maptype = 'terrain',
+                         color = 'color'))
+p +
+  geom_point(aes(x = Longitude, y = Latitude, colour = Accident_Severity), data = df, size = 0.5) +
+  theme(legend.position = "bottom")
+```
