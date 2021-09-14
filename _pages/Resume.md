@@ -43,7 +43,7 @@ ul.skills li::before {
 }
 
 .main-heading {
-	color: #005c99;
+	<!-- color: #005c99; -->
 	margin-top: 20px;
 	font-size: 16px;
 	font-weight: bolder;
@@ -688,5 +688,3 @@ hr {
     </div><!==gray div-->
 	</div>
 </body>
-
-</html>
