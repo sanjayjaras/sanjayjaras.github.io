@@ -673,7 +673,7 @@ hr {
 								<li><span class="heading-2">Jenkins</span></li>
 								<li><span class="heading-2">Fisheye</span></li>
 								<li><span class="heading-2">Enterprise Architect</span></li>
-                                <li><span class="heading-2">Spark</span></li>
+                                <li><span class="heading-2">Apache Spark</span></li>
                                 <li><span class="heading-2">Tableau</span></li>
                                 <li><span class="heading-2">PowerBi</span></li>
 							</ul>
