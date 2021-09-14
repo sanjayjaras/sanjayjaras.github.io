@@ -4,9 +4,7 @@ date: 2020-06-01
 tags:
  - Python
  - Jupyter Notebook
-
-entries_layout: grid
-
+ 
 excerpt: "Covid Impacts and Safety Concerns"
 header:
   overlay_image: "/Projects/Airline Safety/assets/blog_1.png"
