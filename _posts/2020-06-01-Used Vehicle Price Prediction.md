@@ -7,9 +7,9 @@ tags:
  
 excerpt: "Used Vehicle Price Prediction Model"
 header:
-  overlay_image: "/Projects/Used Vehicle Price Prediction/assets/image1.jpeg"
+  overlay_image: "/Projects/Used Vehicle Price Prediction/assets/image1.jpg"
   overlay_filter: 0.3 # same as adding an opacity of 0.3 to a black background
-  teaser: "/Projects/Used Vehicle Price Prediction/assets/image1.jpeg"
+  teaser: "/Projects/Used Vehicle Price Prediction/assets/image1.jpg"
   actions:
     - label: "Go to GitHub Repository"
       url: "https://github.com/sanjayjaras/sanjayjaras.github.io/tree/master/Projects/Used%20Vehicle%20Price%20Prediction"
