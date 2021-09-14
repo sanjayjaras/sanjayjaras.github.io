@@ -1,4 +1,20 @@
-<img src="assets/image_1.png" alt="header" />
+---
+title: "Brain Tumor Classification"
+date: 2020-06-01
+tags:
+ - Python
+ - Jupyter Notebook
+ 
+excerpt: "CNN model to classify Brain Tumors of types Meningioma, Glioma & Pituitary"
+header:
+  overlay_image: "/Projects/Brain Tumor Classification/assets/image_1.png"
+  overlay_filter: 0.3 # same as adding an opacity of 0.3 to a black background
+  teaser: "/Projects/Brain Tumor Classification/assets/image_1.png"
+  actions:
+    - label: "Go to GitHub Repository"
+      url: "https://github.com/sanjayjaras/sanjayjaras.github.io/tree/master/Projects/Brain%20Tumor%20Classification"
+---
+
 
 # Brain Tumor Classification
 Images are used in various fields to make the problem easier to understand. Image processing techniques are most widely used in medical imaging to identify the affected area through an X-ray, computed tomography scan(CT scan), MRI scan(Magnetic resonance images).
@@ -10,19 +26,19 @@ the infected tumor portion in the brain from the MRI (Magnetic resonance images)
 Types of brain tumors: For this implementation, I have considered following brain tumor type. 
 1. Meningioma: The meningioma type of tumors seen near the top-outer part of the brain. Meningioma is slowly growing noncancerous tumors that cause seizures and visual problems. This type of tumors accounting for 37.6% of all tumors, and 53.3% of all nonmalignant tumors.
    
-  <img src="assets/image_2.png" alt="Meningioma" />
+  <img src="/Projects/Brain Tumor Classification/assets/image_2.png" alt="Meningioma" />
 
 2. Glioma: Glioma is an abnormal growth in glial cells present around the neurons in the brain. Gliomas (such as glioblastoma, ependymomas, astrocytomas, and oligodendrogliomas), which make up 81% of malignant brain tumors in adults.
-   <img src="assets/image_3.png" alt="Glioma" />
+   <img src="/Projects/Brain Tumor Classification/assets/image_3.png" alt="Glioma" />
 
 3. Pituitary: Pituitary tumors grow in pituitary glands that affect body functions. Some pituitary tumors result in too many of the hormones that regulate important functions of your body. Some pituitary tumors can cause your pituitary gland to produce lower levels of hormones.
 
-<img src="assets/image_4.png" alt="Pituitary" />
+<img src="/Projects/Brain Tumor Classification/assets/image_4.png" alt="Pituitary" />
 
 I followed the following approach comprising image preprocessing like noise removal, cropping the image, extraction, augmentation, and classification of the MRI images. Convolution neural networks are a breakthrough in image recognition. They’re most commonly used to
 analyze visual imagery and are frequently working behind the scenes in image classification. In my approach, I used vector with size 65536 for each image, rather than using 3-dimensional arrays for images. As per my observation, it is taking less time for training with a vector. I have
 transformed RGB images to grayscale. This image transformation changes 3 RGB channels to only one channel, reduces the memory footprint, and training time.
 
-<img src="assets/image_5.png" alt="plot-1" />
-<img src="assets/image_6.png" alt="plot-2" />
+<img src="/Projects/Brain Tumor Classification/assets/image_5.png" alt="plot-1" />
+<img src="/Projects/Brain Tumor Classification/assets/image_6.png" alt="plot-2" />
 

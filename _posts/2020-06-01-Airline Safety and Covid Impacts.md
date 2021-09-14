@@ -1,11 +1,11 @@
 ---
-title: "Tough time for the airline industry"
+title: "Airline Safety & Covid Impacts"
 date: 2020-06-01
 tags:
  - Python
  - Jupyter Notebook
  
-excerpt: "Covid Impacts and Safety Concerns"
+excerpt: "Tough time for the airline industry, Covid Impacts and Safety Concerns"
 header:
   overlay_image: "/Projects/Airline Safety/assets/blog_1.png"
   overlay_filter: 0.3 # same as adding an opacity of 0.3 to a black background
