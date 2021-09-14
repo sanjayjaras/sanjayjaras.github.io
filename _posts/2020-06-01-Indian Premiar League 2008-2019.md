@@ -21,8 +21,6 @@ header:
 # Indian Premier League 2008-2019
 ## EDA of Indian Premier League 2008-2019
 
-
-
 <p>The Indian Premier League (IPL) is a professional Twenty20 cricket league in Indi. It is typically contested during March through May of every year by eight teams representing eight different cities in India. The Board of Control for Cricket in India (BCCI) started the league in 2008. The IPL has a particular timeslot in ICC(Internationational Cricket Council) Future Tours Programme. The IPL is the most-attended cricket league in the world. In 2014 IPL is ranked sixth by average attendance among all sports leagues. The brand value of the IPL in 2019 was ₹475 billion (US$6.7 billion), according to Duff & Phelps. According to BCCI, the 2015 IPL season contributed ₹11.5 billion (US$160 million) to the GDP of the Indian economy.
 The dataset I got from Kaggle.com has ball by ball information of all seasons of IPL that happened from 2008 through 2019. This dataset contains a total of 751 matches played. This dataset contains one CSV file for each game. This data needs to be used combinedly for performing analysis; for this, we need to combine data from all CSVs. Each CSV has the following columns
 
