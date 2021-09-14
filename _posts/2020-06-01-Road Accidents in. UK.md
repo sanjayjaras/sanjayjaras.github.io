@@ -21,11 +21,11 @@ header:
 # Road Accidents in UK
 ## EDA of Road Accidents in UK 2010-14
 
-* <h3><p style="color:red">Introduction</p></h3>
+* <h3><p>Introduction</p></h3>
 
- <p style="color:blue"> Accidents data can be used for numerous applications such as real-time accident prediction, studying accident hotspot locations, casualty analysis and extracting cause and effect rules to predict accidents, and studying the impact of vehicle age, road conditions, speed limits, environmental stimuli and road conditions on accident occurrence. This dataset contains the data of road accidents happened in U.K. within the time frame of 2010-2014. The data is very extensive, so it can give many insights on accidents. It contains location information, vehicle information, weather information, driver information, time of accidents etc.</p>
-* <h3><p style="color:red">Research questions</p></h3>
-    <font style="color:blue">
+ <p> Accidents data can be used for numerous applications such as real-time accident prediction, studying accident hotspot locations, casualty analysis and extracting cause and effect rules to predict accidents, and studying the impact of vehicle age, road conditions, speed limits, environmental stimuli and road conditions on accident occurrence. This dataset contains the data of road accidents happened in U.K. within the time frame of 2010-2014. The data is very extensive, so it can give many insights on accidents. It contains location information, vehicle information, weather information, driver information, time of accidents etc.</p>
+* <h3><p >Research questions</p></h3>
+    <font >
     <ol>
       <li>What are the factors those are more correlated to severity of accidents?</li>
       <li>Is vehicle power something to do with accidents?</li>
@@ -35,14 +35,14 @@ header:
     </ol> 
     </font>
 
-* <h3><p style="color:red">Approach</p></h3>
-<p style="color:blue"> If required the data will be normalized and cleaned. If null values are present in data, I need to take care of them by either removing those reocrds or using mean value from that column. After cleaning the data, I will analyze data to try answering research questions. While analyzing I will try to use graphs to support/better understand the data.</p>
+* <h3><p >Approach</p></h3>
+<p > If required the data will be normalized and cleaned. If null values are present in data, I need to take care of them by either removing those reocrds or using mean value from that column. After cleaning the data, I will analyze data to try answering research questions. While analyzing I will try to use graphs to support/better understand the data.</p>
 
-* <h3><p style="color:red">Data</p></h3>
-<h5><p style="color:blue">Source Link:</p></h5>
-<p style="color:blue">https://www.kaggle.com/stefanoleone992/adm-project-road-accidents-in-uk
-<h5><p style="color:blue">Columns in the dataset:</p></h5>
- <font style="color:blue">
+* <h3><p >Data</p></h3>
+<h5><p >Source Link:</p></h5>
+<p >https://www.kaggle.com/stefanoleone992/adm-project-road-accidents-in-uk
+<h5><p >Columns in the dataset:</p></h5>
+ <font >
     <ol>
         <li>Accident_Index: Accident index</li>
         <li>Latitude: Accident latitude</li>
@@ -79,6 +79,6 @@ header:
         <li>Accident_Severity: Accident severity</li>
     </ol>
    </font>
-<p style="color:blue">This data is from 2010 through 2014. The dataset is very extensive with location information, vehicle information, weather information, driver information, time of accidents.</p>
+<p >This data is from 2010 through 2014. The dataset is very extensive with location information, vehicle information, weather information, driver information, time of accidents.</p>
 
 
