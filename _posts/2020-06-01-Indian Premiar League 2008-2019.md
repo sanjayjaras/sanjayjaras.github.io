@@ -5,7 +5,7 @@ tags:
  - Python
  - Jupyter Notebook
  
-excerpt: "EDA of Indian Premier League 2008-2019 Ball by Ball "
+excerpt: "EDA of Indian Premier League 2008-2019"
 header:
   overlay_image: "/Projects/Indian Premiar Leage 2008-2019/assets/image1.png"
   overlay_filter: 0.3 # same as adding an opacity of 0.3 to a black background
@@ -19,7 +19,7 @@ header:
 
 
 # Indian Premier League 2008-2019
-## EDA of Indian Premier League 2008-2019 Ball by Ball
+## EDA of Indian Premier League 2008-2019
 
 
 
@@ -33,7 +33,10 @@ The dataset I got from Kaggle.com has ball by ball information of all seasons of
 6. Baller: String field representing the name of the bowler.
 7. Runs: Numeric field representing the number of runs scored by a batsman.
 8. Extra: Numeric field representing the number of runs fielding team conceded extras.
- The needs to be cleaned if required. This dataset can be used to answer different questions.  Some of the questions are as follows. 
+
+
+The needs to be cleaned if required. This dataset can be used to answer different questions.  Some of the questions are as follows. 
+
 1. Economical bowler in each season(calculate an average per Over)
 2. Economical bowler in from all seasons(calculate an average per Over)
 3. Economical bowler in the powerplay(calculate an average per Over)
