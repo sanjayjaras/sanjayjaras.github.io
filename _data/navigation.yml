@@ -7,7 +7,7 @@ main:
   - title: "Contact"
     url: /contact/
   - title: "Resume"
-    url: /assets/Resume.pdf
+    url: /resume/
 
   # - title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
