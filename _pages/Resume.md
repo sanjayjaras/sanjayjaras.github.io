@@ -118,10 +118,10 @@ hr {
 							Union Pacific Railroad as Systems Engineer. Has hands on experience of web
 							based application development. Also he has hands on experience of
 							back end application development. He has involved in all the life
-							cycle stages of software development.In these fourteen years he
+							cycle stages of software development.In these fifteen years he
 							visited client's in different parts of the world like
 							Netherlands, Kuwait, Kenya, India and United States for different
-							duration. He has fourteen years of domain expertise in Travel and
+							duration. He has fifteen years of domain expertise in Travel and
 							Logistics. He is currently working at Omaha NE US on
 							safety-critical, highly availabile application development.</p>
 					</div>
