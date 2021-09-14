@@ -1,22 +1,3 @@
----
-title: "Road Accidents in UK"
-date: 2020-06-01
-tags:
- - Python
- - Jupyter Notebook
- 
-excerpt: "EDA of Road Accidents in UK 2010-14"
-header:
-  overlay_image: "/Projects/Road Accidents in UK/assets/image1.jpeg"
-  overlay_filter: 0.3 # same as adding an opacity of 0.3 to a black background
-  teaser: "/Projects/Road Accidents in UK/assets/image1.jpeg"
-  actions:
-    - label: "Go to GitHub Repository"
-      url: "https://github.com/sanjayjaras/sanjayjaras.github.io/tree/master/Projects/Road%20Accidents%20in%20UK"
----
-
-
-
 
 # Road Accidents in UK
 ## EDA of Road Accidents in UK 2010-14
