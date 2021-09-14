@@ -103,6 +103,7 @@ analytics:
 author:
   name             : "Sanjay Jaras"
   avatar           : "assets/AvatarPicture.jpeg"
+  overlay_filter   : 0.9
   bio              : "Data Science, AI, Machine Learning, Visualization, Story Telling, Java & Systems Engineering"
   location         : "Omaha, Nebraska"
   email            : "sanjayjaras@gmail.com"
