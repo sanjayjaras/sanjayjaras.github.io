@@ -1,4 +1,22 @@
-<img src="/Projects/Airline Safety/assets/blog_1.png" alt="header"/>
+---
+title: "Tough time for the airline industry"
+date: 2020-06-01
+tags:
+ - Python
+ - Jupyter Notebook
+
+excerpt: "Covid Impacts and Safety Concerns"
+header:
+  overlay_image: "/Projects/Airline Safety/assets/blog_1.png"
+  overlay_filter: 0.3 # same as adding an opacity of 0.3 to a black background
+  teaser: "/Projects/Airline Safety/assets/blog_1.png"
+  actions:
+    - label: "Go to GitHub Repository"
+      url: "https://github.com/sanjayjaras/sanjayjaras.github.io/tree/master/Projects/Airline%20Safety"
+---
+
+
+<!-- <img src="/Projects/Airline Safety/assets/blog_1.png" alt="header"/> -->
 
 
 # Tough time for the airline industry
