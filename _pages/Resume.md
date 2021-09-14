@@ -10,10 +10,6 @@ header:
       url: "mailto:sanjayjaras@gmail.com"
 ---
 
-
-<!DOCTYPE html>
-<html>
-
 <head>
 <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' />
 <style>
@@ -107,7 +103,7 @@ hr {
 					<font size="5"> <b>Sanjay R. Jaras</b> <br />
 					</font>
 					<div style="height: 5px;">&nbsp;</div>
-					<font size="2"> <b>Associate System Engineer</b>
+					<font size="2"> <b>Systems Engineer</b>
 					</font>
 					<div>&nbsp;</div>
 				</div>
