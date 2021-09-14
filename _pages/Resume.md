@@ -43,7 +43,7 @@ ul.skills li::before {
 }
 
 .main-heading {
-	<!-- color: #005c99; -->
+	/* color: #005c99; */
 	margin-top: 20px;
 	font-size: 16px;
 	font-weight: bolder;
@@ -63,13 +63,13 @@ ul.skills li::before {
 }
 
 .heading {
-	color: #222222;
+	color: #eeeeee;
 	font-size: 14px;
 	font-weight: bold;
 }
 
 .heading-2 {
-	color: green;
+	color: #dddddd;
 	font-size: 14px;
 	font-weight: bold;
 }
@@ -99,12 +99,12 @@ hr {
 <body>
 	<div>
 		<div>
-			<div style="width: 100%; background-color: #005c99; color: white;">
+			<div style="width: 100%; color: white;">
 				<div style="margin-left: 10px; margin-top: 10px">
 					<font size="5"> <b>Sanjay R. Jaras</b> <br />
 					</font>
 					<div style="height: 5px;">&nbsp;</div>
-					<font size="2"> <b>Systems Engineer</b>
+					<font size="2"> <b>Associate System Engineer</b>
 					</font>
 					<div>&nbsp;</div>
 				</div>
@@ -113,9 +113,9 @@ hr {
 			<div class="Row">
 				<div class="Cell" style="width: 75%">
 					<div style="margin-bottom: 10px">
-						<p>Detail-oriented individual with having 14 plus years of
+						<p>Detail-oriented individual with having 15 plus years of
 							software Development experience. Currently he is working with 
-							Union Pacific Railroad as Associate System Engineer. Has hands on experience of web
+							Union Pacific Railroad as Systems Engineer. Has hands on experience of web
 							based application development. Also he has hands on experience of
 							back end application development. He has involved in all the life
 							cycle stages of software development.In these fourteen years he
@@ -573,16 +573,14 @@ hr {
 					<div class="Row">
 						<div style="width: 20%" class="Cell heading-2">
 							<span style="white-space: nowrap;">2019</span> - <span
-								style="white-space: nowrap;">Present</span>
+								style="white-space: nowrap;">2021</span>
 						</div>
 						<div style="width: 80%" class="Cell">
 							<div style="width: 100%">
 								<div>
 									<span style="white-space: nowrap;" class="heading-2">M.S. in Data Science from Bellevue University</span>
 								</div>
-								<div>
-									<span class="normal-text">In Progress(9/30 Credits completed)</span>
-								</div>
+								
 							</div>
 						</div>
 					</div>
@@ -590,7 +588,7 @@ hr {
 				</div>
 				<!--   main Cell end -->
 
-				<div class="Cell" style="width: 25%; background-color: #f0f0f0;">
+				<div class="Cell" style="width: 25%; background-color: #080D14;">
 					<div class="right-pan">
 						<div class="main-heading">Personal Info</div>
 						<hr>
@@ -598,13 +596,13 @@ hr {
 							<span class="heading-2">Address</span>
 						</div>
 						<div style="width: 100%">
-							<span class="normal-text">14313 Marinda Plaza</span>
+							<span class="normal-text">14986 H ST</span>
 						</div>
 						<div style="width: 100%">
-							<span class="normal-text">Apt # 13</span>
+							<span class="normal-text"></span>
 						</div>
 						<div style="width: 100%">
-							<span class="normal-text">Omaha NE-68144</span>
+							<span class="normal-text">Omaha NE-68137</span>
 						</div>
 						<div style="width: 100%">
 							<span class="heading-2">Phone</span>
@@ -621,9 +619,9 @@ hr {
 						<div style="width: 100%">
 							<span class="heading-2">Date of birth</span>
 						</div>
-						<div style="width: 100%">
+						<!-- <div style="width: 100%">
 							<span class="normal-text">1980-05-04</span>
-						</div>
+						</div> -->
 						<div style="width: 100%">
 							<span class="heading-2">Marital status </span>
 						</div>
