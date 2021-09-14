@@ -14,12 +14,12 @@ header:
 <head>
 <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' />
 <style>
-body {
+/* body {
 	margin: 0cm 1cm 1cm 1cm;
 	font-family: 'Arimo';
 	#font-family: "Times New Roman", Times, serif;
 	background-color: #fcfcfc;
-}
+} */
 
 p {
 	font-size: 14px;
