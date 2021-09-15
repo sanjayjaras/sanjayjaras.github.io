@@ -588,7 +588,7 @@ hr {
 				</div>
 				<!--   main Cell end -->
 
-				<div class="Cell" style="width: 25%; background-color: #0F1A25;">
+				<div class="Cell" style="width: 25%; background-color: #11222E;">
 					<div class="right-pan">
 						<div class="main-heading">Personal Info</div>
 						<hr>
