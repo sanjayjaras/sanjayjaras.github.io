@@ -596,13 +596,13 @@ hr {
 							<span class="heading-2">Address</span>
 						</div>
 						<div style="width: 100%">
-							<span class="normal-text">14986 H ST</span>
+							<span class="normal-text"></span>
 						</div>
 						<div style="width: 100%">
 							<span class="normal-text"></span>
 						</div>
 						<div style="width: 100%">
-							<span class="normal-text">Omaha NE-68137</span>
+							<span class="normal-text">Omaha NE</span>
 						</div>
 						<div style="width: 100%">
 							<span class="heading-2">Phone</span>
