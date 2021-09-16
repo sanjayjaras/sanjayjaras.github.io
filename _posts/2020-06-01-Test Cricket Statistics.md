@@ -5,7 +5,7 @@ tags:
  - Python
  - Jupyter Notebook
  
-excerpt: "Test Cricket Statistics: Data Preparation and Basic EDA"
+excerpt: "Test Cricket Statistics: Data Preparation"
 header:
   overlay_image: "/Projects/Test Cricket Statistics/assets/image1.jpg"
   overlay_filter: 0.3 # same as adding an opacity of 0.3 to a black background
@@ -19,7 +19,7 @@ header:
 
 
 # Test Cricket Statistics
-## Test Cricket Statistics: Data Preparation and Basic EDA
+## Test Cricket Statistics: Data Preparation
 
 Test Cricket Statistics - The test matches are long format of cricket. Test Match is played for 5 days. Each team gets 2 innings.Every match can have 4 inning max, however some matches are finished in 3 innings. Under this project the data is loaded from three different data sources
   * Yaml Files
