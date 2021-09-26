@@ -608,7 +608,7 @@ hr {
 							<span class="heading-2">Phone</span>
 						</div>
 						<div style="width: 100%">
-							<span class="normal-text">402-206-6168</span>
+							<span class="normal-text"></span>
 						</div>
 						<div style="width: 100%">
 							<span class="heading-2">E-mail</span>
