@@ -5,7 +5,7 @@ tags:
  - Python
  - Jupyter Notebook
  
-excerpt: "Movie Recommender System Using MovieLense Dataset"
+excerpt: "Movie Recommender System Using Hybrid Recommender Model"
 header:
   overlay_image: "/Projects/movies-recommendation/assets/image1.jpg"
   overlay_filter: 0.3 # same as adding an opacity of 0.3 to a black background
@@ -19,7 +19,7 @@ header:
 
 
 # Movie Recommender System
-## Movie Recommender System Using MovieLense Dataset
+## Movie Recommender System Using Hybrid Recommender Model
 
 ## Introduction:
 On the internet and media platforms like Netflix, youtube it is very easy to get lost while searching for products or content as per our likings. If the platform does not suggest any products or content, we might waste a lot of our time searching for products or content that we are interested in. For example, if we just started using Netflix, it will show us top- rated movies or top charts. Once we watch some movies it will recommend new movies that are similar to movies we watched. Now assume there are no recommendations available from Netflix, we need to search through a big list of 4000 movies to find a movie that interests us. When we search for similar movies on google, in the background google uses a recommendation system to find a similar movies list There are many applications of
