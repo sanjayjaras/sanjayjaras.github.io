@@ -1,6 +1,6 @@
 ---
 title: "Brain Tumor Classification"
-date: 2020-06-01
+date: 2021-03-01
 tags:
  - Python
  - Jupyter Notebook

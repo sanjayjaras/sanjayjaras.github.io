@@ -1,6 +1,6 @@
 ---
 title: "Used Vehicle Price Prediction"
-date: 2020-06-01
+date: 2021-06-02
 tags:
  - Python
  - Jupyter Notebook

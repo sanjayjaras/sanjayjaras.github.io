@@ -1,6 +1,6 @@
 ---
 title: "Airline Safety & Covid Impacts"
-date: 2020-06-01
+date: 2021-06-01
 tags:
  - Python
  - Jupyter Notebook
