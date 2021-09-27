@@ -1,6 +1,6 @@
 
 # Weather Application
-## Weather Application to Show 3 Hours weather for next 5 Days by  City Name or Zipcode
+## Weather application to show weather information by 3 hours for next 5 days by  city name or zipcode
 
 api.openweathermap.org
 
