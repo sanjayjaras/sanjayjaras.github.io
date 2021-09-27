@@ -5,7 +5,7 @@ tags:
  - Python
   
  
-excerpt: "Weather Application to Show 3 Hours waether for next 5 Days by  City Name or Zipcode"
+excerpt: "Weather Application to Show 3 Hours weather for next 5 Days by  City Name or Zipcode"
 header:
   overlay_image: "/Projects/Weather Application/assets/image1.jpg"
   overlay_filter: 0.3 # same as adding an opacity of 0.3 to a black background
@@ -19,7 +19,7 @@ header:
 
 
 # Weather Application
-## Weather Application to Show 3 Hours waether for next 5 Days by  City Name or Zipcode
+## Weather Application to Show 3 Hours weather for next 5 Days by  City Name or Zipcode
 
 api.openweathermap.org
 
