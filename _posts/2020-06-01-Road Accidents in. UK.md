@@ -2,7 +2,7 @@
 title: "Road Accidents in UK"
 date: 2020-06-01
 tags:
- - Python
+ - R
  - Jupyter Notebook
  
 excerpt: "EDA of Road Accidents in UK 2010-14"
