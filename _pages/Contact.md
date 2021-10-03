@@ -39,7 +39,7 @@ header:
         <!-- your other form fields go here -->
         <button type="submit">Send</button>
     </form> 
-      <!-- <div class="name"><a href="mailto:sanjayjaras@gmail.com" rel="nofollow">Email</a></div>
+      <!-- <div class="name"><a href="mailto:__@gmail.com" rel="nofollow">Email</a></div>
       <div class="name"><a href="https://sanjayjaras.github.io/_pages/emailme.html" rel="nofollow">Send me a message</a></div>
       <div class="description">I usually respond immediately</div> -->
     </div>

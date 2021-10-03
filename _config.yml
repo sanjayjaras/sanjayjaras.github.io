@@ -106,7 +106,7 @@ author:
   overlay_filter   : 0.9
   bio              : "Data Science, AI, Machine Learning, Visualization, Story Telling, Java & Systems Engineering"
   location         : "Omaha, Nebraska"
-  email            : "sanjayjaras@gmail.com"
+  #email            : "sanjayjaras@gmail.com"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
@@ -126,7 +126,7 @@ footer:
       url: "https://github.com/sanjayjaras"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:sanjayjaras@gmail.com
+      url: "https://sanjayjaras.github.io/contact/"
 
 
 # Reading Files
