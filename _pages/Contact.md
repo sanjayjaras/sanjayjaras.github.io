@@ -27,9 +27,21 @@ header:
   </li>
   <li>
     <div class="text">
-      <div class="name"><a href="mailto:sanjayjaras@gmail.com" rel="nofollow">Email</a></div>
+      <div class="name">Message Me</div>
+      <form action="https://formspree.io/f/mpzknreq" method="POST">
+        <label> Your email:
+    <input type="email" name="_replyto">
+  </label>
+        <label>
+            Your message:
+            <textarea name="message"></textarea>
+        </label>
+        <!-- your other form fields go here -->
+        <button type="submit">Send</button>
+    </form> 
+      <!-- <div class="name"><a href="mailto:sanjayjaras@gmail.com" rel="nofollow">Email</a></div>
       <div class="name"><a href="https://sanjayjaras.github.io/_pages/emailme.html" rel="nofollow">Send me a message</a></div>
-      <div class="description">I usually respond immediately</div>
+      <div class="description">I usually respond immediately</div> -->
     </div>
   </li>
 </ul>
