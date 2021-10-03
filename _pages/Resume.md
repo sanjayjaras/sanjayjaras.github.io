@@ -610,9 +610,9 @@ hr {
 						<div style="width: 100%">
 							<span class="normal-text"></span>
 						</div>
-						<div style="width: 100%">
+						<!-- <div style="width: 100%">
 							<span class="heading-2">E-mail</span>
-						</div>
+						</div> -->
 						<div style="width: 100%">
 							<span class="normal-text"><a href="https://sanjayjaras.github.io/contact/">Email Me</a></span>
 						</div>
