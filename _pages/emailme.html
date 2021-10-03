@@ -1,5 +1,3 @@
-#open the index.html file, to add the below sample code in any text #editor.
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,58 +6,14 @@
     <meta name="viewport" content="width=device-width, 
         initial-scale=1.0">
     <title>Sending contact form</title>
-    <style>
-        .container {
-            width: 40%;
-            margin: 30px auto;
-        }
-
-        h2 {
-            text-align: center;
-        }
-
-        input,
-        select,
-        textarea {
-            width: 100%;
-            padding: 12px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
-            margin-top: 6px;
-            margin-bottom: 16px;
-        }
-
-        textarea {
-            height: 150px;
-            resize: none;
-        }
-
-        button {
-            background-color: #4CAF50;
-            color: white;
-            padding: 12px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background-color: #45a049;
-        }
-
-        .container {
-            border-radius: 5px;
-            background-color: #f2f2f2;
-            padding: 20px;
-        }
-    </style>
 </head>
 
 <body>
-    <form action="http://formspree.io/sanjayjaras@gmail.com" method="POST">
-        <input type="email" name="_replyto">
-        <textarea name="body"></textarea><input type="submit" value="Send"></form>
+    <form action="http://formspree.io/sanjayjaras@gmail.com" method="post">
+            <label for="email">Your Email</label>
+            <input name="Email" id="email" type="email">
+            <button type="submit">Submit</button>
+          </form>
 </body>
 
 </html>
