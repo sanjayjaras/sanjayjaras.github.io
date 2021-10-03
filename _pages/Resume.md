@@ -628,11 +628,11 @@ hr {
 						<div style="width: 100%">
 							<span class="normal-text">Married</span>
 						</div>
-						<div style="width: 100%">
+						<!-- <div style="width: 100%">
 							<span class="heading-2">Citizenship</span>
 						</div>
 						<div style="width: 100%">
-							<span class="normal-text">Indian</span>
+							<span class="normal-text">Indian</span> -->
 						</div>
 						<br>
 						<div class="main-heading">Skills</div>
