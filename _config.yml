@@ -114,6 +114,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/sanjayjaras"
+    - label: "Email"
+      icon: "fab fa-fw fa-email"
+      url: "https://sanjayjaras.github.io/contact/"
 
 # Site Footer
 footer:
