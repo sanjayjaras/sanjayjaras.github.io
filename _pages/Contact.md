@@ -8,7 +8,7 @@ header:
   overlay_filter: 0.3 # same as adding an opacity of 0.3 to a black background
   actions:
     - label: "Send me an email"
-      url: "mailto:sanjayjaras@gmail.com"
+      url: "https://sanjayjaras.github.io/contact/"
 ---
 ## Find me on the internet:
 
