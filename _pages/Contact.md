@@ -28,6 +28,7 @@ header:
   <li>
     <div class="text">
       <div class="name"><a href="mailto:sanjayjaras@gmail.com" rel="nofollow">Email</a></div>
+      <div class="name"><a href="https://www.linkedin.com/in/_pages/emailme.html" rel="nofollow">LinkedIn</a></div>
       <div class="description">I usually respond immediately</div>
     </div>
   </li>
