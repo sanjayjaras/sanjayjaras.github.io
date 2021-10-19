@@ -687,5 +687,5 @@ hr {
 		<!-- white div>
     
     </div><!==gray div-->
-	</div>
+	<!-- </div> -->
 </body>
