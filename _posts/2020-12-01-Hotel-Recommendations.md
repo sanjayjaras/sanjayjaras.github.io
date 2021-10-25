@@ -7,7 +7,7 @@ tags:
  
 excerpt: "Hotel Recommendation System EDA and prediction models using sklearn and Vaex"
 header:
-  overlay_image: "/Projects/California Housing Prices/assets/image1.jpg"
+  overlay_image: "/Projects/Hotel Recommendations/assets/image-1.jpg"
   overlay_filter: 0.3 # same as adding an opacity of 0.3 to a black background
   teaser: "/Projects/Hotel Recommendations/assets/image-1.jpg"
   actions:
