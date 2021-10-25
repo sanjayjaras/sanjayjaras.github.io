@@ -2,7 +2,7 @@
 title: "Image Segmentation"
 date: 2021-10-25
 tags:
- - R
+ - Python
  - Jupyter Notebook
  
 excerpt: "Image Segmentation - Using U-Net and MobileNetV2"
