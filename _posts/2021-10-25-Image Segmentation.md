@@ -35,17 +35,17 @@ For training and prediction, I have selected the U-Net model. The U-Net was deve
 The U-Net model is trained on training images by using a batch size of 32 and validation splits of 5. The model has trained for a max of 30 epochs with early exit true with a stopping condition depending on validation loss.  
 
 ## References:
- 
-    * Computer Vision Tutorial: A Step-by-Step Introduction to Image Segmentation Techniques – Pulkit Sharma - https://www.analyticsvidhya.com/blog/2019/04/introduction-image-segmentation-techniques-python/
-    * Image Segmentation - https://en.wikipedia.org/wiki/Image_segmentation
-    * Neutrosophic sets in dermoscopic medical image segmentation - Yanhui Guo, Amira S. Ashour https://www.sciencedirect.com/topics/engineering/medical-image-segmentation
-    * Image segmentation - https://www.tensorflow.org/tutorials/images/segmentation
-    * Image Segmentation in 2021: Architectures, Losses, Datasets, and Frameworks - Derrick Mwiti, Katherine (Yi) Li – Aug 2021 - https://neptune.ai/blog/image-segmentation-in-2020
-    * U-net segmentation – Yuanfan You -  https://www.kaggle.com/yuanfanyou/u-net-segmentation
-    * Visual Object Classes Challenge 2012 (VOC2012) – Pascal 2 - http://host.robots.ox.ac.uk/pascal/VOC/voc2012/#data
-    * What Is Image Segmentation? -  https://www.mathworks.com/discovery/image-segmentation.html
-    * Tutorial 3: Image Segmentation - https://ai.stanford.edu/~syyeung/cvweb/tutorial3.html
-    * Image Segmentation With 5 Lines 0f Code - Ayoola Olafenwa – May 2020 - https://towardsdatascience.com/image-segmentation-with-six-lines-0f-code-acb870a462e8
-    * Image Segmentation: Part 1 - Mrinal Tyagi - Jul 2018 - https://towardsdatascience.com/image-segmentation-part-1-9f3db1ac1c50
-    * MobileNetV2: The Next Generation of On-Device Computer Vision Networks – Mark Sandler and Andrew Howard – April 2018 - https://ai.googleblog.com/2018/04/mobilenetv2-next-generation-of-on.html
-    * Understanding Semantic Segmentation with UNET – Harshall Lamba – Feb 2019 https://towardsdatascience.com/understanding-semantic-segmentation-with-unet-6be4f42d4b47
+
+* Computer Vision Tutorial: A Step-by-Step Introduction to Image Segmentation Techniques – Pulkit Sharma - https://www.analyticsvidhya.com/blog/2019/04/introduction-image-segmentation-techniques-python/
+* Image Segmentation - https://en.wikipedia.org/wiki/Image_segmentation
+* Neutrosophic sets in dermoscopic medical image segmentation - Yanhui Guo, Amira S. Ashour https://www.sciencedirect.com/topics/engineering/medical-image-segmentation
+* Image segmentation - https://www.tensorflow.org/tutorials/images/segmentation
+* Image Segmentation in 2021: Architectures, Losses, Datasets, and Frameworks - Derrick Mwiti, Katherine (Yi) Li – Aug 2021 - https://neptune.ai/blog/image-segmentation-in-2020
+* U-net segmentation – Yuanfan You -  https://www.kaggle.com/yuanfanyou/u-net-segmentation
+* Visual Object Classes Challenge 2012 (VOC2012) – Pascal 2 - http://host.robots.ox.ac.uk/pascal/VOC/voc2012/#data
+* What Is Image Segmentation? -  https://www.mathworks.com/discovery/image-segmentation.html
+* Tutorial 3: Image Segmentation - https://ai.stanford.edu/~syyeung/cvweb/tutorial3.html
+* Image Segmentation With 5 Lines 0f Code - Ayoola Olafenwa – May 2020 - https://towardsdatascience.com/image-segmentation-with-six-lines-0f-code-acb870a462e8
+* Image Segmentation: Part 1 - Mrinal Tyagi - Jul 2018 - https://towardsdatascience.com/image-segmentation-part-1-9f3db1ac1c50
+* MobileNetV2: The Next Generation of On-Device Computer Vision Networks – Mark Sandler and Andrew Howard – April 2018 - https://ai.googleblog.com/2018/04/mobilenetv2-next-generation-of-on.html
+* Understanding Semantic Segmentation with UNET – Harshall Lamba – Feb 2019 https://towardsdatascience.com/understanding-semantic-segmentation-with-unet-6be4f42d4b47
