@@ -1,6 +1,6 @@
 ---
 title: "Image Segmentation"
-date: 2020-06-01
+date: 2021-10-25
 tags:
  - R
  - Jupyter Notebook
