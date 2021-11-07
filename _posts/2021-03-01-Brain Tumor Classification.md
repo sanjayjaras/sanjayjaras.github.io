@@ -4,6 +4,12 @@ date: 2021-03-01
 tags:
  - Python
  - Jupyter Notebook
+ - Exploratory Data Analysis
+ - EDA
+ - Data visualizaion
+ - Data Gathering
+ - Machine learning
+ - Predictive Analytics
  
 excerpt: "CNN model to classify Brain Tumors of types Meningioma, Glioma & Pituitary"
 header:

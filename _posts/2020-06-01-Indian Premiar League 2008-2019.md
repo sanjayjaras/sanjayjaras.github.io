@@ -4,6 +4,13 @@ date: 2020-06-01
 tags:
  - Python
  - Jupyter Notebook
+ - Data Gathering
+ - Data preprocessing
+ - Data cleaning
+ - API
+ - Exploratory Data Analysis
+ - EDA
+ - Data visualizaion
  
 excerpt: "EDA of Indian Premier League 2008-2019"
 header:

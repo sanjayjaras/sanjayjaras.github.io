@@ -4,6 +4,10 @@ date: 2021-06-01
 tags:
  - Python
  - Jupyter Notebook
+ - Exploratory Data Analysis
+ - EDA
+ - Data visualizaion
+ - Data Gathering
  
 excerpt: "Tough time for the airline industry, Covid Impacts and Safety Concerns"
 header:

@@ -4,6 +4,12 @@ date: 2021-10-25
 tags:
  - Python
  - Jupyter Notebook
+ - Exploratory Data Analysis
+ - EDA
+ - Data visualizaion
+ - Data Gathering
+ - Machine learning
+ - Predictive Analytics
  
 excerpt: "Image Segmentation - Using U-Net and MobileNetV2"
 header:

@@ -4,6 +4,12 @@ date: 2021-09-26
 tags:
  - Python
  - Jupyter Notebook
+ - Exploratory Data Analysis
+ - EDA
+ - Data visualizaion
+ - Data Gathering
+ - Machine learning
+ - Predictive Analytics
  
 excerpt: "Movie Recommender System Using Hybrid Recommender Model"
 header:

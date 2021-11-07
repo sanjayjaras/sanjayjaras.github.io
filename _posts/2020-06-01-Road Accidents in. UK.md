@@ -4,6 +4,10 @@ date: 2020-06-01
 tags:
  - R
  - Jupyter Notebook
+ - Data Gathering
+ - Exploratory Data Analysis
+ - EDA
+ - Data visualizaion
  
 excerpt: "EDA of Road Accidents in UK 2010-14"
 header:

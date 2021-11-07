@@ -3,6 +3,10 @@ title: "Weather Application"
 date: 2019-12-01
 tags:
  - Python
+ - Application
+ - Weather
+ - API
+ - Data Gathering
   
  
 excerpt: "Weather application to show weather information by 3 hours for next 5 days by  city name or zipcode"

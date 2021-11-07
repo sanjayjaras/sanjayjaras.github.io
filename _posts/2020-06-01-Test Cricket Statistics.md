@@ -4,6 +4,11 @@ date: 2020-06-01
 tags:
  - Python
  - Jupyter Notebook
+ - Exploratory Data Analysis
+ - EDA
+ - Data visualizaion
+ - Data Gathering
+ - API
  
 excerpt: "Test Cricket Statistics: Data Preparation"
 header:

@@ -4,6 +4,12 @@ date: 2020-12-01
 tags:
  - Python
  - Jupyter Notebook
+ - Exploratory Data Analysis
+ - EDA
+ - Data visualizaion
+ - Data Gathering
+ - Machine learning
+ - Predictive Analytics
  
 excerpt: "California Housing Prices EDA and prediction models using sklearn"
 header:

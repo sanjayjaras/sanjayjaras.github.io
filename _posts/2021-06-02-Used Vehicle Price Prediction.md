@@ -4,6 +4,12 @@ date: 2021-06-02
 tags:
  - Python
  - Jupyter Notebook
+ - Exploratory Data Analysis
+ - EDA
+ - Data visualizaion
+ - Data Gathering
+ - Machine learning
+ - Predictive Analytics
  
 excerpt: "Used Vehicle Price Prediction Model"
 header:
