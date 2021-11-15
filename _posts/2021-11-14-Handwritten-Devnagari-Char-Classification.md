@@ -12,7 +12,7 @@ tags:
  - Deep Learning
  - Predictive Analytics
  
-excerpt: "Handwritten-Devnagari-Char-Classification - Using Sklearn and tensorflow"
+excerpt: "Handwritten Devnagari Character Classification - Using Sklearn and tensorflow"
 header:
   overlay_image: "/Projects/Handwritten-Devnagari-Char-Classification/assets/image1.jpg"
   overlay_filter: 0.3 # same as adding an opacity of 0.3 to a black background
