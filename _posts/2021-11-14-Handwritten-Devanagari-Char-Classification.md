@@ -1,5 +1,5 @@
 ---
-title: "Handwritten Devnagari Character Classification"
+title: "Handwritten Devanagari Character Classification"
 date: 2021-11-14
 tags:
  - Python
@@ -12,14 +12,14 @@ tags:
  - Deep Learning
  - Predictive Analytics
  
-excerpt: "Handwritten Devnagari Character Classification - Using Sklearn and Tensorflow"
+excerpt: "Handwritten Devanagari Character Classification - Using Sklearn and Tensorflow"
 header:
-  overlay_image: "/Projects/Handwritten-Devnagari-Char-Classification/assets/image1.jpg"
+  overlay_image: "/Projects/Handwritten-Devanagari-Char-Classification/assets/image1.jpg"
   overlay_filter: 0.3 # same as adding an opacity of 0.3 to a black background
-  teaser: "/Projects/Handwritten-Devnagari-Char-Classification/assets/image1.jpg"
+  teaser: "/Projects/Handwritten-Devanagari-Char-Classification/assets/image1.jpg"
   actions:
     - label: "Go to GitHub Repository"
-      url: "https://github.com/sanjayjaras/sanjayjaras.github.io/tree/master/Projects/Handwritten-Devnagari-Char-Classification"
+      url: "https://github.com/sanjayjaras/sanjayjaras.github.io/tree/master/Projects/Handwritten-Devanagari-Char-Classification"
 ---
 
 
