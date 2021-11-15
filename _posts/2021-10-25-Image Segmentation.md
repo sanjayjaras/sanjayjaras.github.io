@@ -9,6 +9,7 @@ tags:
  - Data visualizaion
  - Data Gathering
  - Machine learning
+ - Deep Learning
  - Predictive Analytics
  
 excerpt: "Image Segmentation - Using U-Net and MobileNetV2"

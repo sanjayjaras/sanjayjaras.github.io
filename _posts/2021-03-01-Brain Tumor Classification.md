@@ -9,6 +9,7 @@ tags:
  - Data visualizaion
  - Data Gathering
  - Machine learning
+ - Deep Learning
  - Predictive Analytics
  
 excerpt: "CNN model to classify Brain Tumors of types Meningioma, Glioma & Pituitary"
